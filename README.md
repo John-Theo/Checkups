@@ -7,7 +7,7 @@
  - [to-do] Optimize OCR procedure with [`multiprocessing`](https://docs.python.org/3.6/library/multiprocessing.html) library.
  - [to-do] Correct the direction of downloaded image, reproduced the font size according to [Baidu OCR](https://ai.baidu.com/) api response.
 
- ![achv-0507](./achv/achv-0507.png =100)
+ ![achv-0507](./achv/achv-0507.png =100x100)
 
 ---
 
