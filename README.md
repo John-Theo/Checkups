@@ -14,4 +14,5 @@
 ## [05.08] Code review & Optimization
  - [DONE] Extend my __crawler__ to support multiple key words, and test it to download larger amount of pictures (`627` valid / `2300` in total).
  - [DONE] Add `isDownloaded` check to my crawler to skip downloaded pictures.
+ - [DONE] Optimize OCR procedure with [`multiprocessing`](https://docs.python.org/3.6/library/multiprocessing.html) library.
  - [to-do] (More TODOs coming up...)
