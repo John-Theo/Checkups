@@ -1,5 +1,7 @@
 # Checkup - Project Log
 
+![QR_Code](WechatIMG138.png)
+
 ## [05.07] Project starts today!
  - __[DONE]__ Creat a __crawler__ to get multiple imgs by key word '`体检单`' in [Baidu Image](https://image.baidu.com/).
  - __[DONE]__ Add filter to my crawler to ignore _low resolution pics_ & _expired urls_ .
