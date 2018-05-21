@@ -68,7 +68,7 @@
 
 ## [05.14-05.17] Image classifier Implementation
  - __[DONE]__ Image classifier implementation(test acuuracy above 90%).
- - __[DONE]__ Choose _Naive Bayers_ for my text classifierer.
+ - __[DONE]__ Choose [__Naive Bayes__](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) for my text classifierer.
  - _[to-do]_ Text classifier
  - _[to-do]_ GUI
  
@@ -86,13 +86,16 @@
 
 ---
 
-## [05.20] Naive Bayers Implementation and Optimization
+## [05.20] Naive Bayes Implementation and Optimization
  - __[DONE]__ Complete text classification
 
 ![achv-0520](./achv/achv-0520.png)
+
+## [05.21] Classifier Integration
+ - __[DONE]__ Get prediction result from both image classifier & text classifier.
+ - _[to-do]_ Using [__Decision Tree__](https://en.wikipedia.org/wiki/Decision_tree) to make the final call.
+
 ![achv-0521](./achv/achv-0521.png)
 ![achv-0521-2](./achv/achv-0521-2.png)
 ![achv-0521-3](./achv/achv-0521-3.png)
-![achv-0521-illu](./achv/achv-0521-illu.png)
-
-## [05.20] 
+![achv-0521-illu](./achv/achv-0521-illu.jpg)
