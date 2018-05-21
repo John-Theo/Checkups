@@ -63,3 +63,36 @@
  - _[to-do]_ Deciede how much categories should there be to improve classification result. (`is_report`/`paper_but_not_report`/`not_paper`)
 
 ![achv-0513](./achv/achv-0513.png)
+
+---
+
+## [05.14-05.17] Image classifier Implementation
+ - __[DONE]__ Image classifier implementation(test acuuracy above 90%).
+ - __[DONE]__ Choose _Naive Bayers_ for my text classifierer.
+ - _[to-do]_ Text classifier
+ - _[to-do]_ GUI
+ 
+![achv-0517](./achv/achv-0517.png)
+![achv-tf](./achv/tf4poets.png)
+ 
+---
+
+## [05.18-05.19] (Progress stagnated)
+ - Perparing for [_China College Students' Enterpreneurship Competition 2018_](http://www.chuangqingchun.net/)
+ - Coding for [_KDD CUP 2018_](https://biendata.com/competition/kdd_2018/)
+
+![achv-0511](./achv/KDD.jpg)
+![achv-0512](./achv/cqc.png)
+
+---
+
+## [05.20] Naive Bayers Implementation and Optimization
+ - __[DONE]__ Complete text classification
+
+![achv-0520](./achv/achv-0520.png)
+![achv-0521](./achv/achv-0521.png)
+![achv-0521-2](./achv/achv-0521-2.png)
+![achv-0521-3](./achv/achv-0521-3.png)
+![achv-0521-illu](./achv/achv-0521-illu.png)
+
+## [05.20] 
