@@ -103,7 +103,7 @@
 ---
 
 ## [05.21-05.27] Front-end Development
- - __[DONE]__ Choose Angular as front-end framework.
+ - __[DONE]__ Choose [`Angular`](https://angular.cn/) as front-end framework.
  - __[DONE]__ Complete several pages & routing.
  - __[DONE]__ Add logo for our project.
  - __[DONE]__ [Another project](https://box.zjuqsc.com/-zxhbb6).
