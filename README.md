@@ -99,3 +99,24 @@
 ![achv-0521-2](./achv/achv-0521-2.png)
 ![achv-0521-3](./achv/achv-0521-3.png)
 ![achv-0521-illu](./achv/achv-0521-illu.jpg)
+
+---
+
+## [05.21-05.27] Front-end Development
+ - __[DONE]__ Choose Angular as front-end framework.
+ - __[DONE]__ Complete several pages & routing.
+ - __[DONE]__ Add logo for our project.
+ - _[to-do]_ Complete visualization.
+ - _[to-do]_ Complete back-end.
+ - _[to-do]_ Info extraction.
+ - _[to-do]_ Decision tree.
+
+![achv](./achv/achv-0522.png)
+![achv](./achv/achv-0522-2.png)
+![achv](./achv/achv-0523.png)
+![achv](./achv/achv-0523-2.png)
+![achv](./achv/achv-0524.png)
+![achv](./achv/achv-0524-2.png)
+![achv](./achv/achv-0525.png)
+![achv](./achv/achv-0528.png)
+![achv](./achv/achv-0528-2.png)
