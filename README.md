@@ -106,6 +106,7 @@
  - __[DONE]__ Choose Angular as front-end framework.
  - __[DONE]__ Complete several pages & routing.
  - __[DONE]__ Add logo for our project.
+ - __[DONE]__ [Another project](https://box.zjuqsc.com/-zxhbb6).
  - _[to-do]_ Complete visualization.
  - _[to-do]_ Complete back-end.
  - _[to-do]_ Info extraction.
