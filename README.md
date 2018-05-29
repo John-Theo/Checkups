@@ -102,7 +102,7 @@
 
 ---
 
-## [05.21-05.27] Front-end Development
+## [05.21-05.28] Front-end Development
  - __[DONE]__ Choose [`Angular`](https://angular.cn/) as front-end framework.
  - __[DONE]__ Complete several pages & routing.
  - __[DONE]__ Add logo for our project.
@@ -121,3 +121,12 @@
 ![achv](./achv/achv-0525.png)
 ![achv](./achv/achv-0528.png)
 ![achv](./achv/achv-0528-2.png)
+
+## [05.29] Database Establishment
+ - __[DONE]__ Choose sqlite3 as the database for the project.
+ - __[DONE]__ Increase image number to get more data.
+  - Search by key word '`纸头`';
+  - Search by key word '`作业`';
+  - Search by key word '`作文 草稿`';
+ - __[DONE]__ Standardize classification result, and storage in database.
+
