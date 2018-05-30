@@ -125,28 +125,49 @@
 ## [05.29] Database Establishment
  - __[DONE]__ Choose sqlite3 as the database for the project.
  - __[DONE]__ Increase image number to get more data.
+   - Search by key word '`随机`';
+   ![achv](./achv/achv-0529.png)
    - Search by key word '`纸头`';
    - Search by key word '`作业`';
    - Search by key word '`作文 草稿`';
+   ![achv](./achv/achv-0529-2.png)
  - __[DONE]__ Standardize classification result, and storage in database.
-
-![achv](./achv/achv-0529.png)
-![achv](./achv/achv-0529-2.png)
-![achv](./achv/achv-0529-3.png)
-![achv](./achv/achv-0529-4.png)
-![achv](./achv/achv-0529-5.png)
+ ![achv](./achv/achv-0529-3.png)
+ ![achv](./achv/achv-0529-4.png)
+ - __[DONE]__ No-text-in-picture warning.
+ ![achv](./achv/achv-0529-5.png)
+ - _[to-do]_ Model integration & batch prediction.
+ - _[to-do]_ Infomation digging from examination reports.
 
 ## [05.30] Model Integration with Decision Tree
- - __[DONE]__
-
-![achv](./achv/achv-0530.png)
-![achv](./achv/achv-0530-2.png)
-![achv](./achv/achv-0530-3.png)
-![achv](./achv/achv-0530-4.png)
-![achv](./achv/achv-0530-5.png)
-![achv](./achv/achv-0530-6.png)
-![achv](./achv/achv-0530-7.png)
-![achv](./achv/achv-0530-8.png)
-![achv](./achv/achv-0530-9.png)
-![achv](./achv/achv-0530-10.png)
-![achv](./achv/achv-0530-11.png)
+ - __[DONE]__ Implement K Means.
+ - __[DONE]__ Exploring best iteration rounds for K means(K=3): __Results are identical when max_iter>100__.
+   ![achv](./achv/achv-0530.png)
+ - __[DONE]__ Focusing on accuracy of category '`report`'.
+ - __[DONE]__ Exploring what cause the classification failure: __Failure of image classification, but luckily, text classification seem right__.
+   ![achv](./achv/achv-0530-2.png)
+ - __[DONE]__ ADD FEATURE: Are two methods making the same conclusion? Yes->1.0; No->0.0.
+ - __[DONE]__ Parameter tuning. Best being 90.1% correct(_That's not good_).
+   ![achv](./achv/achv-0530-3.png)
+ - __[DONE]__ DELETE FEATURE: Identical conclusion.
+ - __[DONE]__ Exploring features: `subtraction`, `deviding`, `single`, `both`...
+ - __[DONE]__ ADD FEATURE: `TXT_report` - `TXT_pnr`.
+ - __[DONE]__ Parameter tuning. Best being 94.9% correct(_That's really good_).
+   ![achv](./achv/achv-0530-4.png)
+   ![achv](./achv/achv-0530-5.png)
+ - __[DONE]__ Try K means(K=2): __Model improved significantly!!!__
+   ![achv](./achv/achv-0530-6.png)
+ - __[DONE]__ Add more data.
+ - __[DONE]__ Correct denominator.
+   ![achv](./achv/achv-0530-7.png)
+ - __[DONE]__ Implement Decision Tree.
+ - __[DONE]__ Batch test, and get thrilling results(Screenshot hasn't shown the best result).
+   ![achv](./achv/achv-0530-8.png)
+ - __[DONE]__ Visualizing my decision tree.
+   ![achv](./achv/achv-0530-9.png)
+ - __[DONE]__ Batch test with traning data: __Results even better: Outliers exist!__
+   ![achv](./achv/achv-0530-10.png)
+ - __[DONE]__ Test integrated model on never-seen data.
+   ![achv](./achv/achv-0530-11.png)
+ - _[to-do]_ Infomation digging from examination reports.
+ - _[to-do]_ System back-end.
