@@ -130,3 +130,23 @@
   - Search by key word '`作文 草稿`';
  - __[DONE]__ Standardize classification result, and storage in database.
 
+![achv](./achv/achv-0529.png)
+![achv](./achv/achv-0529-2.png)
+![achv](./achv/achv-0529-3.png)
+![achv](./achv/achv-0529-4.png)
+![achv](./achv/achv-0529-5.png)
+
+## [05.30] Model Integration with Decision Tree
+ - __[DONE]__
+
+![achv](./achv/achv-0530.png)
+![achv](./achv/achv-0530-2.png)
+![achv](./achv/achv-0530-3.png)
+![achv](./achv/achv-0530-4.png)
+![achv](./achv/achv-0530-5.png)
+![achv](./achv/achv-0530-6.png)
+![achv](./achv/achv-0530-7.png)
+![achv](./achv/achv-0530-8.png)
+![achv](./achv/achv-0530-9.png)
+![achv](./achv/achv-0530-10.png)
+![achv](./achv/achv-0530-11.png)
