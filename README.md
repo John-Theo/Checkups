@@ -125,9 +125,9 @@
 ## [05.29] Database Establishment
  - __[DONE]__ Choose sqlite3 as the database for the project.
  - __[DONE]__ Increase image number to get more data.
-  - Search by key word '`纸头`';
-  - Search by key word '`作业`';
-  - Search by key word '`作文 草稿`';
+   - Search by key word '`纸头`';
+   - Search by key word '`作业`';
+   - Search by key word '`作文 草稿`';
  - __[DONE]__ Standardize classification result, and storage in database.
 
 ![achv](./achv/achv-0529.png)
