@@ -141,10 +141,12 @@
 
 ## [05.30] Model Integration with Decision Tree
  - __[DONE]__ Implement K Means.
- - __[DONE]__ Exploring best iteration rounds for K means(K=3): __Results are identical when max_iter>100__.
+ - __[DONE]__ Exploring best iteration rounds for K means(K=3): 
+   - __Results are identical when max_iter>100__.
    ![achv](./achv/achv-0530.png)
  - __[DONE]__ Focusing on accuracy of category '`report`'.
- - __[DONE]__ Exploring what cause the classification failure: __Failure of image classification, but luckily, text classification seem right__.
+ - __[DONE]__ Exploring what cause the classification failure: 
+   - __Failure of image classification, but luckily, text classification seem right__.
    ![achv](./achv/achv-0530-2.png)
  - __[DONE]__ ADD FEATURE: Are two methods making the same conclusion? Yes->1.0; No->0.0.
  - __[DONE]__ Parameter tuning. Best being 90.1% correct(_That's not good_).
@@ -155,7 +157,8 @@
  - __[DONE]__ Parameter tuning. Best being 94.9% correct(_That's really good_).
    ![achv](./achv/achv-0530-4.png)
    ![achv](./achv/achv-0530-5.png)
- - __[DONE]__ Try K means(K=2): __Model improved significantly!!!__
+ - __[DONE]__ Try K means(K=2): 
+   - __Model improved significantly!!!__
    ![achv](./achv/achv-0530-6.png)
  - __[DONE]__ Add more data.
  - __[DONE]__ Correct denominator.
@@ -165,7 +168,8 @@
    ![achv](./achv/achv-0530-8.png)
  - __[DONE]__ Visualizing my decision tree.
    ![achv](./achv/achv-0530-9.png)
- - __[DONE]__ Batch test with traning data: __Results even better: Outliers exist!__
+ - __[DONE]__ Batch test with traning data: 
+   - __Results even better: Outliers exist!__
    ![achv](./achv/achv-0530-10.png)
  - __[DONE]__ Test integrated model on never-seen data.
    ![achv](./achv/achv-0530-11.png)
