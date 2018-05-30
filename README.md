@@ -170,7 +170,7 @@
    ![achv](./achv/achv-0530-9.png)
  - __[DONE]__ Batch test with traning data: 
    - __Results even better: Outliers exist!__
-   ![achv](./achv/achv-0530-10.png)
+   - ![achv](./achv/achv-0530-10.png)
  - __[DONE]__ Test integrated model on never-seen data.
    ![achv](./achv/achv-0530-11.png)
  - _[to-do]_ Infomation digging from examination reports.
