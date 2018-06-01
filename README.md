@@ -175,3 +175,18 @@
    ![achv](./achv/achv-0530-11.png)
  - _[to-do]_ Infomation digging from examination reports.
  - _[to-do]_ System back-end.
+
+## [05.31] (Progress stagnated)
+ - Some paper work.
+
+## [06.01] Infomation Extraction
+![achv](./achv/achv-0601-2.png)
+![achv](./achv/achv-0601-3.png)
+![achv](./achv/achv-0601-process.png)
+![achv](./achv/achv-0601-28-old.png)
+![achv](./achv/achv-0601-28-old-pic.jpg)
+![achv](./achv/achv-0601-28-old-txt.png)
+![achv](./achv/cv2/edge.png)
+![achv](./achv/cv2/line_detection.png)
+![achv](./achv/cv2/end_point.png)
+![achv](./achv/cv2/wrapped.png)
