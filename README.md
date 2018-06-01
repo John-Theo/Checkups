@@ -180,13 +180,22 @@
  - Some paper work.
 
 ## [06.01] Infomation Extraction
-![achv](./achv/achv-0601-2.png)
-![achv](./achv/achv-0601-3.png)
 ![achv](./achv/achv-0601-process.png)
-![achv](./achv/achv-0601-28-old.png)
-![achv](./achv/achv-0601-28-old-pic.jpg)
-![achv](./achv/achv-0601-28-old-txt.png)
-![achv](./achv/cv2/edge.png)
-![achv](./achv/cv2/line_detection.png)
-![achv](./achv/cv2/end_point.png)
-![achv](./achv/cv2/wrapped.png)
+ - Partial failure due to distortion.
+   - ![achv](./achv/achv-0601-28-old.png)
+   - ![achv](./achv/achv-0601-28-old-pic.jpg)
+   - Wrong content order because of image skew.
+   - ![achv](./achv/achv-0601-28-old-txt.png)
+ - Calibration.
+   - Edge detection.
+   - ![achv](./achv/cv2/edge.png)
+   - Line detection (`max_contour_length` + `max_width` + `height` + `position`).
+   - ![achv](./achv/cv2/line_detection.png)
+   - End point adjusting.
+   - ![achv](./achv/cv2/end_point.png)
+   - Wrapping.
+   - ![achv](./achv/cv2/wrapped.png)
+ - A success.
+   - ![achv](./achv/achv-0601-2.png)
+ - Different pattern & expression brings new challenge.
+   - ![achv](./achv/achv-0601-3.png)
