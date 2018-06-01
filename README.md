@@ -199,3 +199,7 @@
    - ![achv](./achv/achv-0601-2.png)
  - Different pattern & expression brings new challenge.
    - ![achv](./achv/achv-0601-3.png)
+ - _[to-do]_ Report logic & visualization.
+ - _[to-do]_ Back-end construction.
+ - _[to-do]_ System integration.
+ - _[to-do]_ Production environment deployment.
