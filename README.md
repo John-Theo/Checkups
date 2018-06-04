@@ -204,3 +204,9 @@
  - _[to-do]_ Back-end construction.
  - _[to-do]_ System integration.
  - _[to-do]_ Production environment deployment.
+
+## [06.02] 
+![achv](./achv/achv-0602.jpg)
+![achv](./achv/achv-0602-2.jpg)
+![achv](./achv/achv-0602-3.jpg)
+![achv](./achv/achv-0602-4.jpg)
