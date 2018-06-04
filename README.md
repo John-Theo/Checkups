@@ -205,8 +205,17 @@
  - _[to-do]_ System integration.
  - _[to-do]_ Production environment deployment.
 
-## [06.02] 
+## [06.02] Report Logic Determination
 ![achv](./achv/achv-0602.jpg)
 ![achv](./achv/achv-0602-2.jpg)
 ![achv](./achv/achv-0602-3.jpg)
 ![achv](./achv/achv-0602-4.jpg)
+
+## [06.03] Full Report UI Design
+![achv](./achv/achv-0603.jpg)
+
+## [06.04] Front-end Completion & Back-end Construstion
+ - _[to-do]_ Interactive front-end completion with Angular.
+ - _[to-do]_ Use [Node.js](https://nodejs.org/) to build a server.
+ - _[DONE]_ Choose [MongoDB](https://www.mongodb.com/) as a database (Store user info & uploaded data).
+ - _[DONE]_ Choose [ReportLab](https://www.reportlab.com/) to generate report with structured data.
