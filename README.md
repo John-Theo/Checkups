@@ -216,6 +216,6 @@
 
 ## [06.04] Front-end Completion & Back-end Construstion
  - _[to-do]_ Interactive front-end completion with Angular.
- - _[to-do]_ Use [Node.js](https://nodejs.org/) to build a server.
- - _[DONE]_ Choose [MongoDB](https://www.mongodb.com/) as a database (Store user info & uploaded data).
- - _[DONE]_ Choose [ReportLab](https://www.reportlab.com/) to generate report with structured data.
+ - _[to-do]_ Use [`Node.js`](https://nodejs.org/) to build a server.
+ - _[DONE]_ Choose [`MongoDB`](https://www.mongodb.com/) as a database (Store user info & uploaded data).
+ - _[DONE]_ Choose [`ReportLab`](https://www.reportlab.com/) to generate report with structured data.
