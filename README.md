@@ -220,13 +220,13 @@
  - _[DONE]_ Choose [`MongoDB`](https://www.mongodb.com/) as a database (Store user info & uploaded data).
  - _[DONE]_ Choose [`ReportLab`](https://www.reportlab.com/) to generate report with structured data.
 
-## [06.05-06.10] (Feature Engineering of `Project Protein`)
-![achv](./achv/protein/achv-0603-1.png)
-![achv](./achv/protein/achv-0603-2.png)
-![achv](./achv/protein/achv-0603-3.png)
-![achv](./achv/protein/achv-0611.png)
-![achv](./achv/protein/achv-0611-2.jpg)
-![achv](./achv/protein/achv-0611-3.jpg)
+## [06.05-06.10] (Feature Engineering of _Project Protein_)
+![achv](./achv/protein/0603-1.png)
+![achv](./achv/protein/0603-2.png)
+![achv](./achv/protein/0603-3.png)
+![achv](./achv/protein/0611.png)
+![achv](./achv/protein/0611-2.jpg)
+![achv](./achv/protein/0611-3.jpg)
 
 ## [06.11] Full Report UI Design
 ![achv](./achv/achv-0611-1.jpg)
