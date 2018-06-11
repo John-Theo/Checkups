@@ -225,8 +225,8 @@
 ![achv](./achv/protein/0603-2.png)
 ![achv](./achv/protein/0603-3.png)
 ![achv](./achv/protein/0611.png)
-![achv](./achv/protein/0611-2.jpg)
-![achv](./achv/protein/0611-3.jpg)
+![achv](./achv/protein/0611-2.png)
+![achv](./achv/protein/0611-3.png)
 
 ## [06.11] Full Report UI Design
 ![achv](./achv/achv-0611-1.jpg)
