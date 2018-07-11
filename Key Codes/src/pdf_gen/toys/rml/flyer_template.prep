@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?> 
+<!DOCTYPE document SYSTEM "rml.dtd"> 
+
+<document filename="harwoodgame_flyer.pdf"> 
+
+{{script}}
+
+#nice short name for our formatting function.
+from rlextra.radxml.html_cleaner import cleanInline as i
+from rlextra.radxml.html_cleaner import cleanBlocks as b
+
+#we want the current date
+import datetime
+today = datetime.date.today()
+
+{{endscript}}
+
+<docinit>
+    <registerTTFont faceName="HelveticaNeue-Light" fileName="{{RML_DIR}}/fonts/LTe50263.ttf"/>
+    <registerTTFont faceName="HelveticaNeue-Bold" fileName="{{RML_DIR}}/fonts/LTe50261.ttf"/>
+</docinit>
+
+<template pageSize="(595, 842)" leftMargin="72" showBoundary="0">
+
+    <pageTemplate id="blank">
+        <frame id="first" x1="1in" y1="1in" width="6.27in" height="9.69in"/>
+    </pageTemplate>
+
+    <pageTemplate id="products">
+        <pageGraphics>
+            <image file="{{RML_DIR}}/flyer_background.pdf" x="0" y="0" width="595" height="842"/>
+            <fill color="red"/>
+            <setFont name="HelveticaNeue-Light" size="12"/>
+            <drawCenteredString x="297" y="40">Order online</drawCenteredString>
+            <fill color="black"/>
+            <setFont name="HelveticaNeue-Bold" size="10"/>
+            <drawCenteredString x="297" y="30">www.harwoodgame.co.uk</drawCenteredString>
+        </pageGraphics>
+        <frame id="left" x1="5%" y1="8%" width="40%" height="77%"/>
+        <frame id="right" x1="55%" y1="8%" width="40%" height="77%"/>
+    </pageTemplate>
+
+</template>
+
+<stylesheet>
+
+    <paraStyle name="h1"
+    fontName="HelveticaNeue-Light"
+    fontSize="27"
+    leading="17"
+    spaceBefore = "30"
+    />
+
+    <paraStyle name="h2"
+    fontName="HelveticaNeue-Bold"
+    fontSize="15"
+    leading="17"
+    spaceBefore = "15"
+    />
+
+    <paraStyle name="prod_name"
+    fontName="HelveticaNeue-Light"
+    fontSize="14.5"
+    leading="14"
+    spaceBefore = "14"
+    />
+
+    <paraStyle name="prod_summary"
+    fontName="HelveticaNeue-Light"
+    fontSize="12"
+    leading="10"
+    spaceBefore = "12"
+    textColor="green" 
+    />
+
+    <paraStyle name="prod_price"
+    fontName="HelveticaNeue-Bold"
+    fontSize="7.5"
+    leading="14"
+    spaceBefore = "4"
+    textColor="green" 
+    />
+
+</stylesheet>
+
+<story>
+
+    <para style="h1"> Product Availability </para>
+    <para style="h2">{{today.strftime('%d %B %Y')}}</para>
+
+    {{for prod in products}}
+        <para style="prod_name">{{i(prod.name)}}</para>
+    {{endfor}}
+
+</story>
+</document>

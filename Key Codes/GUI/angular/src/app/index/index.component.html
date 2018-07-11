@@ -1,0 +1,40 @@
+<div style="padding:30px;">
+  <div nz-row [nzGutter]="12" nzType="flex" nzJustify="space-around" nzAlign="middle">
+    <!-- test_result -->
+    <div nz-col [nzSpan]="10" *ngFor="let card of classes">
+      <nz-card [nzHoverable]="true" [nzCover]="coverTemplate1">
+        <div class="card_content">
+          <div class="card_title">{{card.title}}</div>
+          <div class="card_description">{{card.desc}}</div>
+        </div>
+        <nz-divider nzText="选择项目"></nz-divider>
+        <!-- sub-class -->
+        <nz-content style="padding: 0 6%;">
+          <div nz-row nzType="flex" nzJustify="space-around" nzAlign="middle">
+            <!-- individual sub-class -->
+            <nz-content nz-col [nzSpan]="3" *ngFor="let sub_cls of card.sub_cls">
+              <nz-popover [nzPlacement]="'top'">
+                <!-- sub-class content -->
+                <div nz-popover class="grid_style" (click)="createMessage(sub_cls.name)">
+                  <img class="sub-class" src="./../../assets/{{sub_cls.icon}}.svg">
+                  <button nz-button nzType="dashed" nzSize="small" style="margin: 20px 0;">
+                    {{sub_cls.name}}
+                  </button>
+                </div>
+                <!-- pop up content -->
+                <ng-template #nzTemplate>
+                  <div style="width: 300px; padding: 20px 20px 0 20px; text-align: center">
+                    <p>{{sub_cls.desc}}</p>
+                  </div>
+                </ng-template>
+              </nz-popover>
+            </nz-content>
+          </div>
+        </nz-content>
+      </nz-card>
+      <ng-template #coverTemplate1>
+        <i class="anticon {{card.icon}} index_icon"></i>
+      </ng-template>
+    </div>
+  </div>
+</div>

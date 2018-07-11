@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?> 
+<!DOCTYPE document SYSTEM "rml.dtd"> 
+<document filename="harwoodgame_checklist.pdf"> 
+
+{{script}}
+
+#nice short name for our formatting function.
+#from project.harwood.product_catalog import clean_content as i
+from rlextra.radxml.html_cleaner import cleanInline as i
+from rlextra.radxml.html_cleaner import cleanBlocks as b
+VEGETARIAN = False
+{{endscript}}
+
+<docinit>
+    <registerTTFont faceName="Angelina" fileName="{{RML_DIR}}/fonts/angelina.TTF"/>
+    <registerTTFont faceName="HelveticaNeue-Light" fileName="{{RML_DIR}}/fonts/LTe50263.ttf"/>
+    <registerTTFont faceName="HelveticaNeue-Bold" fileName="{{RML_DIR}}/fonts/LTe50261.ttf"/>
+    <color id="BLUE" CMYK="[1,0.67,0,0.23]"/>
+</docinit>
+
+<template pageSize="(595, 842)" leftMargin="72" showBoundary="0">
+    <pageTemplate id="products">
+        <pageGraphics>
+            <image file="{{RML_DIR}}/flyer_background.pdf" x="0" y="0" width="595" height="842"/>
+            <setFont name="HelveticaNeue-Light" size="10"/>
+            <drawString x="30" y="62">Checked By</drawString>
+            <rect x="30" y="30" width="103" height="28.34" fill="No" stroke="yes"/>
+            <fill color="(0.2,0.25,0.60,0.25)"/>
+            <setFont name="HelveticaNeue-Light" size="10"/>
+            <drawString x="268" y="50">Order Online</drawString>
+            <fill color="black"/>
+            <setFont name="HelveticaNeue-Bold" size="10"/>
+            <drawString x="235" y="40">www.harwoodgame.co.uk</drawString>
+        </pageGraphics>
+        <frame id="left" x1="5%" y1="8%" width="40%" height="77%"/>
+        <frame id="right" x1="55%" y1="8%" width="40%" height="77%"/>
+    </pageTemplate>
+</template>
+
+<stylesheet>
+
+    <paraStyle name="h1"
+    fontName="HelveticaNeue-Bold"
+    fontSize="14"
+    leading="17"
+    spaceBefore = "28"
+    />
+
+    <paraStyle name="prod_name"
+    fontName="Angelina"
+    fontSize="14.5"
+    leading="14"
+    spaceBefore = "14"
+    keepWithNext = "1"
+    />
+          
+    <paraStyle name="prod_summary"
+    fontName="HelveticaNeue-Light"
+    fontSize="8"
+    leading="10"
+    spaceBefore = "4"
+    textColor="(0.2,0.25,0.60,0.25)" 
+    keepWithNext = "1"
+    />
+        
+    <paraStyle name="prod_price"
+    fontName="HelveticaNeue-Bold"
+    fontSize="7.5"
+    leading="14"
+    spaceBefore = "4"
+    textColor="(0.2,0.25,0.60,0.25)"
+    />
+
+    <paraStyle name="body"
+    fontName="Helvetica"
+    fontSize="12"
+    leading="14"
+    spaceBefore = "14"
+    />
+
+</stylesheet>
+
+<story>
+
+    <story>  
+  
+    <setNextTemplate name="products"/>  
+  
+    <para style="h1">Packing Checklist</para>  
+  
+    {{for prod in products}}  
+  
+    <para style="prod_name">{{i(prod.name)}}  </para>  
+    <para style="prod_summary">{{i(prod.summary)}}</para>  
+    <imageAndFlowables imageName="{{RML_DIR}}/{{if VEGETARIAN}}img/carrot.jpg{{else}}{{prod.imgURL}}{{endif}}"   
+imageTopPadding="12"   
+imageBottomPadding="12"></imageAndFlowables>    
+  
+    {{if len(str(prod.price)) < 15}}  
+        <illustration width="55" height="20">  
+        <fill color="lightgrey"/>  
+        <rect x="15" y="3" width="30" height="10" fill="Yes"   
+stroke="No" round="1"/>  
+        <fill color="(0.2,0.25,0.60,0.25)" />  
+        <setFont name="HelveticaNeue-Bold" size="7.5"/>  
+        <drawCenteredString x="30" y="5">{{prod.price}}</drawCenteredString>  
+    {{else}}  
+        <illustration width="85" height="20">  
+        <fill color="lightgrey"/>  
+        <rect x="15" y="3" width="130" height="10" fill="Yes"   
+stroke="No" round="1"/>  
+        <fill color="(0.2,0.25,0.60,0.25)" />  
+        <setFont name="HelveticaNeue-Bold" size="7.5"/>  
+        <drawCenteredString x="80" y="5">{{(prod.price)}}</drawCenteredString>  
+    {{endif}}  
+  
+    <rect x="0" y="3" width="12" height="12" fill="No" stroke="Yes"   
+round="1"/>  
+    </illustration>  
+  
+    {{endfor}}  
+  
+</story>  
+</story>
+</document>

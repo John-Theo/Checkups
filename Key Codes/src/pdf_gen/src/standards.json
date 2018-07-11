@@ -1,0 +1,522 @@
+[
+    {
+        "term": "白细胞",
+        "range": [
+            3.5,
+            9.5
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "淋巴细胞百分比",
+        "range": [
+            20.0,
+            50.0
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "单核细胞百分比",
+        "range": [
+            3.0,
+            10.0
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "嗜酸性粒细胞百分比",
+        "range": [
+            0.4,
+            8.0
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "嗜碱性粒细胞百分比",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "中性粒细胞百分比",
+        "range": [
+            40.0,
+            75.0
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "淋巴细胞数绝对值",
+        "range": [
+            1.1,
+            3.2
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "单核细胞绝对值",
+        "range": [
+            0.1,
+            0.6
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "嗜酸性粒细胞绝对值",
+        "range": [
+            0.02,
+            0.52
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "嗜碱性粒细胞绝对值",
+        "range": [
+            0.0,
+            0.1
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "中性粒细胞绝对值",
+        "range": [
+            1.8,
+            6.3
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "红细胞",
+        "range": [
+            3.8,
+            5.1
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "血红蛋白",
+        "range": [
+            115.0,
+            150.0
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "红细胞压积",
+        "range": [
+            35.0,
+            45.0
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "平均红细胞体积",
+        "range": [
+            82.0,
+            100.0
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "平均血红蛋白含量",
+        "range": [
+            27.0,
+            34.0
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "平均血红蛋白浓度",
+        "range": [
+            320.0,
+            370.0
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "红细胞分布宽度(CV)",
+        "range": [
+            11.6,
+            14.5
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "红细胞分布宽度(SD)",
+        "range": [
+            37.0,
+            54.0
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "血小板",
+        "range": [
+            125.0,
+            350.0
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "平均血小板体积",
+        "range": [
+            6.5,
+            13.0
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "血小板压积",
+        "range": [
+            0.11,
+            0.28
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "血小板分布宽度",
+        "range": [
+            15.0,
+            18.0
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "大型血小板比率",
+        "range": [
+            11.0,
+            45.0
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "大型血小板容积",
+        "range": [
+            30.0,
+            90.0
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    },
+    {
+        "term": "超敏C反应蛋白",
+        "range": [
+            0.0,
+            3.0
+        ],
+        "rules": [
+            [
+                "GT",
+                0,
+                "greater_test_work!"
+            ],
+            [
+                "LT",
+                0,
+                "smaller_test_work!"
+            ]
+        ],
+        "update": "2018/06/17_15:47:36.06"
+    }
+]

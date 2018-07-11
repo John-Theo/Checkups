@@ -1,0 +1,52 @@
+<nz-layout class="layout">
+  <nz-header>
+    <img class="logo" src="../assets/Infi-Health-2.png" alt="">
+    <ul nz-menu [nzTheme]="'dark'" [nzMode]="'horizontal'" style="line-height: 64px;">
+      <li nz-menu-item (click)="toIndex()">首页</li>
+      <li nz-menu-item>实验室主页</li>
+      <li nz-menu-item>Github</li>
+      <li nz-menu-item>关于</li>
+    </ul>
+  </nz-header>
+  <nz-content style="padding:0 50px;">
+    <nz-breadcrumb style="margin:16px 0;">
+      <nz-breadcrumb-item>体检分析</nz-breadcrumb-item>
+      <nz-breadcrumb-item>上传数据</nz-breadcrumb-item>
+      <nz-breadcrumb-item>血常规</nz-breadcrumb-item>
+    </nz-breadcrumb>
+    <nz-layout style="padding:24px 0; background: #fff" [style.height]="window_height">
+      <nz-sider [nzWidth]="200" style="background:#fff">
+        <ul nz-menu [nzMode]="'inline'" style="height:100%">
+          <li nz-submenu [(nzOpen)]="openMap.sub1" (nzOpenChange)="openHandler('sub1')">
+            <span title><i class="anticon anticon-area-chart"></i>体检分析</span>
+            <ul>
+              <li nz-menu-item (click)="toUpload()">上传数据</li>
+              <li nz-menu-item (click)="toCheck()">确认信息</li>
+              <li nz-menu-item (click)="toReport()">生成报告</li>
+              <li nz-menu-item (click)="toAnalyze()">趋势分析</li>
+            </ul>
+          </li>
+          <li nz-submenu [(nzOpen)]="openMap.sub2" (nzOpenChange)="openHandler('sub2')">
+            <span title><i class="anticon anticon-user"></i>基本信息</span>
+            <ul>
+              <li nz-menu-item>信息录入</li>
+              <li nz-menu-item>趋势分析</li>
+              <li nz-menu-item>报告导出</li>
+            </ul>
+          </li>
+          <li nz-submenu [(nzOpen)]="openMap.sub3" (nzOpenChange)="openHandler('sub3')">
+            <span title><i class="anticon anticon-shop"></i>增值服务</span>
+            <ul>
+              <li nz-menu-item (click)="toUrl('23mofang')">23魔方</li>
+              <li nz-menu-item (click)="toUrl('wegene')">WEGENE</li>
+            </ul>
+          </li>
+        </ul>
+      </nz-sider>
+      <nz-content malihu-scrollbar [scrollbarOptions]="scrollbarOptions" style="padding: 0 24px; min-height: 280px;">
+        <router-outlet></router-outlet>
+      </nz-content>
+    </nz-layout>
+    <nz-footer style="text-align: center;">John Theo ©2018 Implement By Angular</nz-footer>
+  </nz-content>
+</nz-layout>

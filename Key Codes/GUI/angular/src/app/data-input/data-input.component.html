@@ -1,0 +1,37 @@
+<nz-content style="padding: 16px 50px;">
+  <nz-collapse nzAccordion>
+    <nz-collapse-panel [nzHeader]="'上传图片'" [nzActive]="true">
+      <app-upload></app-upload>
+    </nz-collapse-panel>
+    <nz-collapse-panel [nzHeader]="'手动填写'">
+      <nz-content>
+        <div nz-row nzType="flex" nzJustify="space-around" nzAlign="middle">
+          <div *ngFor="let i of columns" nz-col nzSpan="11">
+            <nz-form-item *ngFor="let info of test_group[i]" style="height: 24px">
+              <div nz-row>
+                <div nz-col nzSpan="12">
+                  <nz-form-label>{{info.term}} ({{info.id}})</nz-form-label>
+                </div>
+                <div nz-col nzSpan="10">
+                  <nz-input-group [nzAddOnAfter]="addOnAfterTemplate">
+                    <input type="text" nz-input>
+                  </nz-input-group>
+                  <ng-template #addOnAfterTemplate>
+                    <nz-select [ngModel]="info.unit[0]">
+                      <nz-option *ngFor="let unit of info.unit" [nzLabel]="unit" [nzValue]="unit"></nz-option>
+                    </nz-select>
+                  </ng-template>
+                </div>
+              </div>
+            </nz-form-item>
+          </div>
+        </div>
+      </nz-content>
+    </nz-collapse-panel>
+  </nz-collapse>
+</nz-content>
+<nz-content style="padding: 16px 50px;">
+  <div type="height: 100%" nz-row nzType="flex" nzJustify="space-around" nzAlign="middle">
+    <app-page-indexer></app-page-indexer>
+  </div>
+</nz-content>

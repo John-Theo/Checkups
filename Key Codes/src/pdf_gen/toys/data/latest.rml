@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?> 
+<!DOCTYPE document SYSTEM "rml.dtd"> 
+
+<document filename="harwoodgame_flyer.pdf"> 
+
+
+
+<docinit>
+    <registerTTFont faceName="HelveticaNeue-Light" fileName="rml/fonts/LTe50263.ttf"/>
+    <registerTTFont faceName="HelveticaNeue-Bold" fileName="rml/fonts/LTe50261.ttf"/>
+</docinit>
+
+<template pageSize="(595, 842)" leftMargin="72" showBoundary="0">
+
+    <pageTemplate id="blank">
+        <frame id="first" x1="1in" y1="1in" width="6.27in" height="9.69in"/>
+    </pageTemplate>
+
+    <pageTemplate id="products">
+        <pageGraphics>
+            <image file="rml/flyer_background.pdf" x="0" y="0" width="595" height="842"/>
+            <fill color="red"/>
+            <setFont name="HelveticaNeue-Light" size="12"/>
+            <drawCenteredString x="297" y="40">Order online</drawCenteredString>
+            <fill color="black"/>
+            <setFont name="HelveticaNeue-Bold" size="10"/>
+            <drawCenteredString x="297" y="30">www.harwoodgame.co.uk</drawCenteredString>
+        </pageGraphics>
+        <frame id="left" x1="5%" y1="8%" width="40%" height="77%"/>
+        <frame id="right" x1="55%" y1="8%" width="40%" height="77%"/>
+    </pageTemplate>
+
+</template>
+
+<stylesheet>
+
+    <paraStyle name="h1"
+    fontName="HelveticaNeue-Light"
+    fontSize="27"
+    leading="17"
+    spaceBefore = "30"
+    />
+
+    <paraStyle name="h2"
+    fontName="HelveticaNeue-Bold"
+    fontSize="15"
+    leading="17"
+    spaceBefore = "15"
+    />
+
+    <paraStyle name="prod_name"
+    fontName="HelveticaNeue-Light"
+    fontSize="14.5"
+    leading="14"
+    spaceBefore = "14"
+    />
+
+    <paraStyle name="prod_summary"
+    fontName="HelveticaNeue-Light"
+    fontSize="12"
+    leading="10"
+    spaceBefore = "12"
+    textColor="green" 
+    />
+
+    <paraStyle name="prod_price"
+    fontName="HelveticaNeue-Bold"
+    fontSize="7.5"
+    leading="14"
+    spaceBefore = "4"
+    textColor="green" 
+    />
+
+</stylesheet>
+
+<story>
+
+    <para style="h1"> Product Availability </para>
+    <para style="h2">14 June 2018</para>
+
+    
+        <para style="prod_name">Harwood Game Hamper No.1</para>
+    
+        <para style="prod_name">Harwood Game Hamper No.2</para>
+    
+        <para style="prod_name">Harwood Game Hamper No.3 ¨C free delivery</para>
+    
+        <para style="prod_name">Bordeaux Index Hamper No.1</para>
+    
+        <para style="prod_name">Bordeaux Index Hamper No.2 ¨C free delivery</para>
+    
+        <para style="prod_name">Bordeaux Index Hamper No.3 ¨C free delivery</para>
+    
+        <para style="prod_name">Ronan by Clinet 2010</para>
+    
+        <para style="prod_name">Bucklebury Chop of Muntjac<br/>4 x 200g pack</para>
+    
+        <para style="prod_name">T-Bone of Fallow Deer<br/>2 x 250g pack</para>
+    
+        <para style="prod_name">Pav¨¦ of Fallow Deer<br/>4 x 150g pack</para>
+    
+        <para style="prod_name">Pav¨¦ of Roe Deer<br/>4 x 150g pack</para>
+    
+        <para style="prod_name">Loin of Muntjac<br/>1 x 400g pack</para>
+    
+        <para style="prod_name">Loin of Roe Deer<br/>1 x 550g pack</para>
+    
+        <para style="prod_name">Rack of Fallow Deer (french trimmed)<br/>1 x c.1kg pack</para>
+    
+        <para style="prod_name">Rack of Roe Deer (french trimmed)<br/>1 x c.600g pack</para>
+    
+        <para style="prod_name">Butterfly Haunch of Muntjac<br/>1 x 1.2kg pack</para>
+    
+        <para style="prod_name">Whole Shoulder of Muntjac<br/>1 x 600g pack</para>
+    
+        <para style="prod_name">Whole Shoulder of Roe Deer (shank removed)<br/>1 x 1.2kg pack</para>
+    
+        <para style="prod_name">Diced Wild Venison<br/>1 x 500g pack</para>
+    
+        <para style="prod_name">Minced Wild Venison<br/>1 x 500g pack</para>
+    
+        <para style="prod_name">Muntjac Merguez Chipolatas<br/>1 x 500g pack (approx. 15 chipolatas)</para>
+    
+        <para style="prod_name">Roe Deer Chipolatas with Juniper, Pepper and Orange<br/>1 x 500g pack (approx. 15 chipolatas)</para>
+    
+        <para style="prod_name">The Whole Fallow Deer Box<br/>1 x c.17kg pack</para>
+    
+        <para style="prod_name">The Whole Muntjac Box<br/>1 x c.7kg pack</para>
+    
+        <para style="prod_name">The Whole Roe Deer Box<br/>1 x c.10kg pack</para>
+    
+        <para style="prod_name">Smoked Loin of Fallow Deer<br/>2 x 125g pack</para>
+    
+        <para style="prod_name">Brace of Red Legged Partridge<br/>2 x c.250g pack</para>
+    
+        <para style="prod_name">Brace of Pheasant<br/>2 x c.600g pack</para>
+    
+        <para style="prod_name">Brace of Wood Pigeon<br/>2 x c.250g pack</para>
+    
+        <para style="prod_name">Pigeon Breasts<br/>1 x 450g pack (skin off)</para>
+    
+        <para style="prod_name">Pigeon Breasts<br/>1 x 500g pack (skin on)</para>
+    
+        <para style="prod_name">Whole Brown Hare<br/>1 x c.2kg pack</para>
+    
+        <para style="prod_name">Whole Rabbit<br/>1 x 1kg pack</para>
+    
+        <para style="prod_name">Brace of Wild Mallard<br/>2 x c.500g pack</para>
+    
+
+</story>
+</document>

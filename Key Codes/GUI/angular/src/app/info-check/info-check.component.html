@@ -1,0 +1,55 @@
+<div style="padding:0 30px 10px 20px">
+  <div class="check_title" nz-row nzType="flex" nzJustify="flex-start" nzAlign="middle">
+    <div style="margin-right: 20px;">报告数据（血常规）</div>
+    <button nz-button nzType="default" nzSize="small" style="color: #1890ff; font-size: 12px;">修改信息</button>
+  </div>
+  <div nz-row nzType="flex" nzJustify="space-between" nzAlign="middle">
+    <div *ngFor="let i of columns" nz-col nzSpan="11">
+      <nz-table nzSize="small" [nzData]="test_group[i]" nzShowPagination="false" #myTable>
+        <thead>
+        <tr class="title_header">
+          <th>指标</th>
+          <th>数值</th>
+          <th>单位</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let data of myTable.data" class="table_content">
+          <td>{{data.term}}</td>
+          <td>{{data.value}}</td>
+          <td>{{data.unit[0]}}</td>
+        </tr>
+        </tbody>
+      </nz-table>
+    </div>
+  </div>
+  <div class="check_title" nz-row nzType="flex" nzJustify="flex-start" nzAlign="middle">
+    <div style="margin-right: 20px;">用户信息</div>
+    <button nz-button nzType="default" nzSize="small" style="color: #1890ff; font-size: 12px;">修改信息</button>
+  </div>
+  <div nz-row nzType="flex" nzJustify="space-between" nzAlign="middle">
+    <div *ngFor="let i of [1,2,3]" nz-col nzSpan="7">
+      <nz-table nzSize="small" [nzData]="user_info" nzShowPagination="false" #myTable>
+        <thead>
+        <tr class="title_header">
+          <th>指标</th>
+          <th>数值</th>
+          <th>单位</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let data of myTable.data" class="table_content">
+          <td>{{data.term}}</td>
+          <td>{{data.value}}</td>
+          <td>{{data.unit[0]}}</td>
+        </tr>
+        </tbody>
+      </nz-table>
+    </div>
+  </div>
+</div>
+<nz-content style="padding: 16px 50px;">
+  <div type="height: 100%" nz-row nzType="flex" nzJustify="space-around" nzAlign="middle">
+    <app-page-indexer></app-page-indexer>
+  </div>
+</nz-content>
