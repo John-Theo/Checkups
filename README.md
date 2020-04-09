@@ -1,5 +1,7 @@
 # Checkup - Project Log
 
+> **BE AWARE:** This project is **NO LONGER** under maintenance. Several dependencies of this project are exposed to **KNOWN SECURITY RISKS**!
+
 ![QR_Code](WechatIMG138.png)
 
 ## [05.07] Project starts today!
